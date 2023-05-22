@@ -1,0 +1,69 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.tarjeta {
+    background-color: #eceff1;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 50px;
+    padding: 60px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+figure {
+    width: 250px;
+}
+img {
+    width: 100%;
+}
+.marca {
+    position: absolute;
+    bottom: 40px;
+    left: 45px;
+    font-weight: 550;
+}
+small {
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+    color: gray;
+}
+.precio {
+    font-size: 32px;
+    color: #6ac9ab;
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+.envio-gratis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white; 
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+}
+.descuento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+}
+.corazon{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

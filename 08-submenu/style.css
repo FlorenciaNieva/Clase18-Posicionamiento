@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: sticky;
+    z-index: 5;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.menu {
+    display: flex;
+}
+.li-nav {
+    margin: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sub-lista{
+    list-style: none;
+    background-color: black;
+    padding: 15px;
+}
+.sub-menu-oculto{
+    display: none;
+}
+nav li:hover > ul {
+    display: block;
+}
